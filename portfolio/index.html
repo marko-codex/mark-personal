@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 to-black text-white min-h-screen">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center relative overflow-hidden" data-animate>
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80" alt="Background"
+        class="w-full h-full object-cover opacity-20" />
+    </div>
+    <div class="container mx-auto px-4 z-10">
+      <div class="text-center opacity-0 translate-y-8" data-animate>
+        <div id="clock" class="text-4xl font-mono mb-8 bg-white/5 inline-block px-6 py-3 rounded-lg backdrop-blur-sm">
+          <span class="text-blue-400">Georgia.Tbilisi</span>
+          <span id="time" class="ml-4"></span>
+        </div>
+        <h1 class="text-6xl font-bold mb-6">Mark-Codex</h1>
+        <p class="text-xl text-gray-300 mb-8">Front-End Developer</p>
+        <div class="flex justify-center space-x-4">
+          <a href="https://github.com/marko-codex/mark-personal" target="_blank"
+            class="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-all hover:scale-110 active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+              <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+          </a>
+          <a href="#"
+            class="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-all hover:scale-110 active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=userid@gmail.com&tf=1" target="_blank"
+            class="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-all hover:scale-110 active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 bg-black/50" data-animate>
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto opacity-0 translate-y-8" data-animate>
+        <div class="flex items-center mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="w-8 h-8 mr-4 text-blue-400">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+          <h2 class="text-3xl font-bold">About Me</h2>
+        </div>
+        <p class="text-gray-300 leading-relaxed">
+          I'm a passionate developer with 5+ years of experience in creating beautiful and functional web applications.
+          My expertise spans across the Front-end Developer, with a special focus on creating intuitive user experiences
+          and
+          scalable frontend solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-20 bg-gradient-to-b from-black/50 to-black/30" data-animate>
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto opacity-0 translate-y-8" data-animate>
+        <div class="flex items-center mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="w-8 h-8 mr-4 text-green-400">
+            <path d="m18 16 4-4-4-4" />
+            <path d="m6 8-4 4 4 4" />
+            <path d="m14.5 4-5 16" />
+          </svg>
+          <h2 class="text-3xl font-bold ">Skills</h2>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6" id="skills-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-20 bg-black/50" data-animate>
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto opacity-0 translate-y-8" data-animate>
+        <div class="flex items-center mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="w-8 h-8 mr-4 text-purple-400">
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+          </svg>
+          <h2 class="text-3xl font-bold">Projects</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8" id="projects-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="py-20 bg-gradient-to-t from-black/50 to-black/30" data-animate>
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto opacity-0 translate-y-8" data-animate>
+        <div class="flex items-center mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="w-8 h-8 mr-4 text-yellow-400">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+          </svg>
+          <h2 class="text-3xl font-bold">Education</h2>
+        </div>
+        <div class="space-y-6">
+          <div class="bg-white/5 p-6 rounded-lg hover:translate-x-2 transition-transform">
+            <h3 class="text-xl font-bold mb-2">Computer Science, BSc</h3>
+            <p class="text-gray-300">Caucasus University</p>
+            <p class="text-gray-400">2019 - 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black/80 py-8">
+    <div class="container mx-auto px-4 text-center text-gray-400">
+      <p>© 2024 Mark-Codex. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
