@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(245, 245, 245);
+}
+
+input {
+  background-color: rgb(38, 38, 38);
+  border: 1px solid rgb(38, 38, 38);
+  color: rgb(245, 245, 245);
+}
+
+input::placeholder {
+  color: rgb(168, 168, 168);
+}
+
+input:focus {
+  border-color: rgb(168, 168, 168);
+}
+
+.login-btn {
+  background-color: rgb(0, 149, 246);
+  opacity: 0.7;
+}
+
+.login-btn:not(:disabled) {
+  opacity: 1;
+}

