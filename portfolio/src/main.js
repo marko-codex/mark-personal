@@ -43,7 +43,7 @@ const skillsGrid = document.getElementById("skills-grid");
 skills.forEach((skill) => {
   const skillElement = document.createElement("div");
   skillElement.className =
-    "bg-white/5 p-4 rounded-lg text-center hover:bg-white/10 transition-all hover:scale-105";
+    "bg-white/5 p-4 rounded-lg text-center  hover:bg-white/10 transition-all hover:scale-105";
   skillElement.textContent = skill;
   skillsGrid.appendChild(skillElement);
 });
