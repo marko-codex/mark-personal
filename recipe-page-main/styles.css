@@ -1,0 +1,142 @@
+body{
+  
+  max-width: 600px;
+  height: auto;
+  background-color: rgb(243, 229, 216);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+main{
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+img{
+  width: 620px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+h1{
+  font-style:inherit;
+  font-size: 35px;
+}
+
+.one{
+  background-color: rgb(255, 247, 252);
+  padding: 2px;
+  border-radius: 20px;
+
+}
+
+.one h2{
+  margin: 20px;
+  color: rgb(144, 91, 113);
+  font-size: 20px;
+}
+
+.one ul li{
+  margin-bottom: 10px;
+  list-style: none;
+  
+}
+.one ul li::before{
+  content: "\2022";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: bold;
+  color: rgb(119, 78, 95);
+}
+
+span {
+  margin: 15px;
+}
+
+.two ul li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.two ul li::before{
+  content: "\2022";
+  color: rgb(170, 147, 141);
+  display: inline-block;
+  width: 1em;
+  margin-left: -2em;
+  font-weight:bold;
+}
+
+.two h2{
+  color: rgb(153, 113, 101);
+  font-weight: 700;
+}
+
+.divider{
+  width: 600px;
+  height: 0.8px;
+  background-color: black;
+  display: inline-block;
+}
+
+.four h2{
+  color: rgb(153, 113, 101);
+  font-weight: 700;
+}
+
+.four ol li{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.four ol li::marker {
+  color: rgb(153, 113, 101);
+  font-weight: 700;
+}
+
+.five h2{
+  color: rgb(153, 113, 101);
+  font-weight: 700;
+}
+
+table{
+  padding-left: 40px;
+  display: flex;  
+}
+
+td{
+ color: rgb(113, 41, 18);
+ font-weight: 700;
+ padding-left: 200px;
+}
+
+th{
+  font-weight: 100;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
